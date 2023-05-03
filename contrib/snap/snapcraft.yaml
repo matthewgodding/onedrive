@@ -7,14 +7,15 @@ description: |
   Linux distributions, FreeBSD, or as a Docker container. It supports 
   one-way and two-way sync capabilities and securely connects to 
   Microsoft OneDrive services.
+website: https://abraunegg.github.io/
 
-grade: devel # must be 'stable' to release into candidate/stable channels
-confinement: devmode # use 'strict' once you have the right plugs and slots
+grade: stable
+confinement: strict
 
 apps:
   onedrive:
     command: /usr/local/bin/onedrive
-    plugs: [home]
+    plugs: [home, network]
 
 parts:
   onedrive:
@@ -30,4 +31,6 @@ parts:
       - pkg-config
     build-snaps:
       - dmd
+    stage-packages:
+      - libcurl4
 
