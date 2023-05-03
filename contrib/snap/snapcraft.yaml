@@ -1,4 +1,4 @@
-name: onedrive-client
+name: onedrive
 base: core22
 version: "2.4.23"
 summary: A free Microsoft OneDrive Client
