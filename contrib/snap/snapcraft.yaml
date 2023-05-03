@@ -30,5 +30,4 @@ parts:
       - pkg-config
     build-snaps:
       - dmd
-    stage-packages:
-      - libcurl4
+
