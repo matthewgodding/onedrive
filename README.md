@@ -72,6 +72,9 @@ Refer to [docs/known-issues.md](https://github.com/abraunegg/onedrive/blob/maste
 ### Installing from Distribution Packages or Building the OneDrive Client for Linux from source
 Refer to [docs/INSTALL.md](https://github.com/abraunegg/onedrive/blob/master/docs/INSTALL.md)
 
+### Install Snap Package
+[Get it from the Snap Store](https://snapcraft.io/onedrive)
+
 ### Configuration and Usage
 Refer to [docs/USAGE.md](https://github.com/abraunegg/onedrive/blob/master/docs/USAGE.md)
 
